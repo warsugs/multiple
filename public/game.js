@@ -198,3 +198,12 @@ function load() {
 function update(dt) {}
 function draw(ctx) {}
 
+function validerReponseMobile() {
+    const input = document.getElementById('reponse');
+    if (input) {
+        verifierReponse(input.value);
+        input.value = "";
+        input.focus();
+    }
+}
+

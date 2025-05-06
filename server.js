@@ -47,6 +47,13 @@ app.get('/classement', (req, res) => {
     res.json(scores);
 });
 
+// Route pour réinitialiser le classement
+app.post('/reset-scores', (req, res) => {
+    const fs = require('fs');
+    fs.writeFileSync('score.json', '[]');
+    res.json({ message: 'Classement réinitialisé !' });
+});
+
 // Lancer le serveur
 app.listen(PORT, () => {
     console.log(`Serveur démarré sur http://localhost:${PORT}`);

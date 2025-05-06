@@ -3,3 +3,9 @@ body {
     padding: 0;
     border: 0;
 }
+
+@media (min-width: 800px) {
+    #reponse, button[onclick="validerReponseMobile()"] {
+        display: none;
+    }
+}
