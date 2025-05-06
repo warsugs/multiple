@@ -1,22 +1,3 @@
 [
-  {
-    "nom": "gio",
-    "pourcentageReussite": 4,
-    "tempsTotalMs": 42012
-  },
-  {
-    "nom": "pllp",
-    "pourcentageReussite": 4,
-    "tempsTotalMs": 42052
-  },
-  {
-    "nom": "1",
-    "pourcentageReussite": 0,
-    "tempsTotalMs": 30041
-  },
-  {
-    "nom": "wow",
-    "pourcentageReussite": 0,
-    "tempsTotalMs": 134963
-  }
+
 ]
