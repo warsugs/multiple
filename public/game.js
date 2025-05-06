@@ -94,7 +94,7 @@ function finDePartie(message) {
 }
 
 function envoyerScoreEtRecommencer(nom, pourcentageReussite, tempsTotalMs) {
-    fetch('http://localhost:3000/score', {
+    fetch('https://multiple-0by1.onrender.com/score', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
@@ -131,7 +131,7 @@ function recommencerJeu() {
 }
 
 function afficherClassement() {
-    fetch('http://localhost:3000/classement')
+    fetch('https://multiple-0by1.onrender.com/classement')
         .then(response => response.json())
         .then(scores => {
             let classement = "Classement général :\n";
